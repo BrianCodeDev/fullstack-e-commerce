@@ -1,0 +1,99 @@
+/* navbar styling */
+.d-flex a {
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 5px;
+}
+/* switch toggle styling */
+/* src/SwitchButton.css */
+
+.switch {
+  width: 50px;
+  height: 25px;
+  background-color: #2a2a2a;
+  border-radius: 12.5px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.switch.on {
+  background-color: #ffffff;
+}
+
+.switch-handle {
+  width: 23px;
+  height: 23px;
+  background-color: rgb(61, 61, 61);
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: left 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch.on .switch-handle {
+  left: 26px;
+}
+
+.icon {
+  font-size: 14px;
+  color: #f39c12; /* Color for the icon, can be customized */
+}
+/* header display styling */
+.header-display {
+  padding-top: 130px;
+}
+.header-display h1 {
+  font-size: 6vw;
+  text-align: center;
+  border: 1px solid black;
+  border-left: 0;
+  border-right: 0;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Blog styling */
+.card {
+  border: none;
+
+}
+.card .card-body {
+  padding-left: 0;
+  margin-left: 0;
+}
+.card .design {
+  border: none;
+  background-color: #F9F5FF;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #6941C6;
+
+}
+.card .research {
+  border: none;
+  background-color: #EEF4FF;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #3538CD;
+}
+.card .presentation {
+  border: none;
+  background-color: #FDF2FA;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #C11574;
+}
+.blog-posts  {
+ text-align: center;
+}
